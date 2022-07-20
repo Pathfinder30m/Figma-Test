@@ -1,0 +1,30 @@
+body {
+background-color: #151515;
+color: #EBEBEB;
+font-family: 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+    color: #EBEBEB;
+    
+}
+.userpic {
+    width: 41px;
+    height: 41px;
+    padding: 5px;
+}
+.backgrownd{
+    position: absolute;
+}
+.user {
+    position: relative;
+    display: block;
+    margin:auto;
+    padding-top: 12px;
+}
+.online {
+    position: relative;
+    display: block;
+    margin-left: 28px;
+    margin-top: -28px;
+}
