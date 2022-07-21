@@ -9,26 +9,27 @@
         <div class="navbar">
             <img id="master" src="master img.png" alt="master">
             <div class="dropdown">
+                <p id="more">Больше</p>
                 <span>
-                <a href="">Сообщения<span id="chkbx">0</span></a>
-                <a href="">Профиль</a>
-                <a href="">Настройки</a>
-                <a href="">Вопросы</a>
-                <a href="">Написать<br>Модератору</a>
-                <a href="">Купить<br>Подписку</a>
+                <a class="dropdown-content"id="mesages"href="">Сообщения <span id="chkbx"> </span></a><br>
+                <a class="dropdown-content" href="">Профиль</a><br>
+                <a class="dropdown-content"href="">Настройки</a><br>
+                <a class="dropdown-content"href="">Вопросы</a><br>
+                <a class="dropdown-content"href="">Написать<br>Модератору</a><br>
+                <a class="dropdown-content"id="subscription"href="">Купить<br>Подписку</a>
                </span>
             </div>
         </div>
         <div>
-            <table>
+            <table id="head">
             <tr>
-                <td><a href="">Удалить</a></td>
-                <td><a href="">Добавить в Архив</a></td>
-                <td><a href="">Непрочитанные</a><a href="">Архив</a></td>
+                <td class="desktop"><a href="">Удалить</a></td>
+                <td class="desktop"><a href="">Добавить в Архив</a></td>
+                <td><a id="unread"href="">Непрочитанные </a><a class="desktop" href=""> Архив</a></td>
                 <td><input type="text" placeholder="Искать-->"></td>
             </tr>
             </table>
-            <table>
+            <table id="inbox">
                 <tr>
                     <td><input type="checkbox" value="1" name="ckb" ></td>
                     <td><div class="userpic"><img class="backgrownd" src="Эллипс 150.png" alt=""><img class="user" src="profile_1_.png" alt=""></div></td>
@@ -96,20 +97,20 @@
                 </tr>
                 
             </table>
-            <div id="linkbar">
-                <a href="">1</a>
-                <a href="">2</a>
-                <a href="">3</a>
-                <a href="">4</a>
-                <a href="">5</a>
-                <a href="">6</a>
-                <a href="">7</a>
-                <a href="">8</a>
-                <a href="">9</a>
-                <a href="">10</a>
-                <a href="">...</a>
-                <a href="">123</a>
-                <a href="">--></a>
+            <div id="linklist">
+                <a class="linkbar"href=""> 1 </a>
+                <a class="linkbar"href=""> 2 </a>
+                <a class="linkbar"href=""> 3 </a>
+                <a class="linkbar"href=""> 4 </a>
+                <a class="linkbar"href=""> 5 </a>
+                <a class="linkbar"href=""> 6 </a>
+                <a class="linkbar"href=""> 7 </a>
+                <a class="linkbar"href=""> 8 </a>
+                <a class="linkbar"href=""> 9 </a>
+                <a class="linkbar"href="">10 </a>
+                <a class="linkbar"href="">...</a>
+                <a class="linkbar"href="">123</a>
+                <a class="linkbar"href="">--></a>
             </div>
         </div>
 <script src="script.js"></script>

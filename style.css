@@ -3,6 +3,8 @@ background-color: #151515;
 color: #EBEBEB;
 font-family: 'Times New Roman', Times, serif;
 }
+
+
 a {
     text-decoration: none;
     color: #EBEBEB;
@@ -27,4 +29,117 @@ a {
     display: block;
     margin-left: 28px;
     margin-top: -28px;
+}
+#mesages, #unread {
+    color: #DB9351;
+}
+#subscription{
+    background-color: #db9351;
+}
+.linkbar {
+    height: 40px;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.linkbar:active{
+        border: #db9351 2px solid;
+    color: #db9351;
+    border-radius: 50%;
+}
+@media (max-width: 600px){
+    #master {
+        position: static;
+        width: 100px;
+        height: auto;
+        border-radius: 50%;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        box-shadow: 0px 8px 16px 0px gray;
+        background-color: #151515;
+        color: #EBEBEB;
+        width: 120px;
+        height: 60px;
+
+    }
+    .dropdown:hover .dropdown-content{
+        display: inline-block;
+
+    }
+
+    
+    .dropdown:hover #more{
+        display: none;
+    }
+    #head {
+        display: inline-block;
+        width: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: smaller;
+        justify-content: center;
+    }
+    .desktop {
+        display: none;
+    }
+}
+@media (min-width: 601px) and (max-width: 992px) {
+    #more {
+        display: none;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+    .dropdown {
+        font-size: larger;
+    }
+    #head {
+        width: 100%;
+        margin: auto;
+        vertical-align: top;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    #inbox {
+        width: 100%;
+        margin: 1%;
+        padding: 2%;
+    }
+}
+@media (min-width: 993px){
+    body {
+        display: grid;
+        grid-template-columns: 293px auto;
+    }
+    #head {
+        width: 100%;
+        margin: auto;
+        vertical-align: top;
+        padding-left: 8%;
+            padding-right: 8%;
+        }
+    #inbox {
+        width: 100%;
+        margin: 1%;
+        padding: 2%;
+        }
+    .dropdown {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr 3fr;
+            background-color: #1D1C1C;
+        }
+    #more {
+        display: none
+    }
+    #subscription {
+        background-color: #db9351;
+    }
 }
